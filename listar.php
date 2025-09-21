@@ -2,6 +2,70 @@
     include 'cabecalho.php';
 ?>
 <body>    
+    <style>
+        
+body {
+    background-color: #0b1b3a; 
+    color: #ffffff; 
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffb6c1; 
+}
+
+
+.table {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #1a2a52; /
+    color: #ffb6c1; 
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+}
+
+
+.btn-success {
+    background-color: #d63384;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #b02a6f;
+}
+
+.btn-danger {
+    background-color: #ff99cc; 
+    border: none;
+    color: #000;
+}
+
+.btn-danger:hover {
+    background-color: #ff66b2;
+    color: #fff;
+}
+
+    </style>
     <div class="container">
         <h2>LISTAGEM DE PRODUTOS</h2>
         <table class="table">
